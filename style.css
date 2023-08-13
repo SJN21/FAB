@@ -1247,6 +1247,11 @@ nav .header a{
     }
     .products .blocks{
         width: 36vw;
+    }    
+    .products .blocks .text{
+        font-size: 9px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
     }
 }
 
