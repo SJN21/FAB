@@ -1174,7 +1174,7 @@ nav .header a{
 }
 @media (max-width: 420px) {
     nav .header .middle{
-        visibility: hidden;
+        display: none;
     }
     nav .header a img{
         height:25px;
@@ -1224,5 +1224,28 @@ nav .header a{
         text-decoration: none;
         color: #F8F5EE;
       }
+          /* signup */
+    .signup .contentf {
+        align-items: center;
+    }
+    .signup .contentf .left{
+        font-size: 10px;
+    }
+
+    /* upfoot */
+    #upfoot{
+        font-size: 11px;
+        padding:15px 0vw 8vh 7vw;
+    }
+    .signup .contentf .right input{
+        height: 27px;
+        width: 110px;
+        font-size: 8px;
+    }
+    .signup .contentf .right button{
+        height: 27px;
+        font-size: 10px;
+        width: 50px;
+    }
 }
 
