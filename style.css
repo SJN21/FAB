@@ -1242,8 +1242,11 @@ nav .header a{
     }
     
     /* Products */
+    .featured .products {
+       margin: 10vh 10vw ;
+    }
     .products .blocks{
-        width: 39vw;
+        width: 36vw;
     }
 }
 
