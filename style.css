@@ -1259,10 +1259,13 @@ nav .header a{
     /* ads */
     
     .ads .row2 .ad5,.ads .row2 .ad4,.ads .row2 .ad3{
-        height: 14vh;
+        height: 20vh;
+    }
+    .ads .row2 .ad5 .advertise1,.ads .row2 .ad4 .advertise1,.ads .row2 .ad3 .advertise1{
+        font-size: 11px;
     }
     .ads .row1 .ad1,.ads .row1 .ad2{
-        height: 35vh;
+        height: 45vh;
     }
     .ads .row1 .ad1 h5, .ads .row1 .ad2 h5 {
         margin: 10px 0 0;
@@ -1270,7 +1273,7 @@ nav .header a{
         letter-spacing: 0.5px;
     }
     .ads .row1 .ad1 .content, .ads .row1 .ad2 .content {
-        margin: 40px 12px;
+        margin: 40px 20px;
     }
     #classicb1,#classicb2{
         width: 70px;
