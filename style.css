@@ -987,9 +987,6 @@ nav .header a{
     }
 
     /* Products */
-    .featured{
-        /* margin-top: 15vh; */
-    }
     .featured .products {
         display: grid;
         grid-template-columns: 1fr 1fr ; /* set column sizes here */
@@ -1224,28 +1221,29 @@ nav .header a{
         text-decoration: none;
         color: #F8F5EE;
       }
-          /* signup */
-    .signup .contentf {
-        align-items: center;
-    }
+    
+    /* signup */
+
     .signup .contentf .left{
         font-size: 10px;
     }
 
     /* upfoot */
     #upfoot{
-        font-size: 11px;
-        padding:15px 0vw 8vh 7vw;
+        font-size: 10px;
     }
     .signup .contentf .right input{
-        height: 27px;
         width: 110px;
         font-size: 8px;
     }
     .signup .contentf .right button{
-        height: 27px;
         font-size: 10px;
         width: 50px;
+    }
+    
+    /* Products */
+    .products .blocks{
+        width: 39vw;
     }
 }
 
