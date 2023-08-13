@@ -1244,7 +1244,7 @@ nav .header a{
     /* Products */
     .featured .products {
        margin: 10vh 10vw ;
-       grid-gap: 10vw; /* how far between cells? */
+       grid-gap: 6vw; /* how far between cells? */
     }
     .products .blocks{
         width: 36vw;
