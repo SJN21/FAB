@@ -113,6 +113,10 @@ nav .header a img{
     height:30px;
 }
 
+.header .icon {
+    display: none;
+  }
+  
 nav .header ul a img /* Created saperately bcz i don't want underline in the icon so applied same css but not after effect bcz not in li */{
     height:30px;
     padding: 0 20px;
@@ -788,6 +792,7 @@ nav .header a{
 }
 #blogbanner h2{
     color: #0c0c0a;
+    margin: auto;
 }
 
 #blog .blogs .first{
@@ -1168,6 +1173,24 @@ nav .header a{
         height: auto;
         display: flex;
     }
+
+    /* blog page */
+    #blogbanner h2{
+        color: #FDE186;
+        margin: auto;
+    }
+    #blog .blogs .first{
+        display:flow-root;
+        margin: 90px 80px;
+    }
+    #blog .blogs .first img{
+        width: 53vw;
+        margin-right: 0;
+    }
+    #blog .blogs .first h2 {
+        top: -7%;
+        z-index: -1;
+    }
 }
 @media (max-width: 420px) {
     nav .header .middle{
@@ -1176,6 +1199,7 @@ nav .header a{
     nav .header a img{
         height:25px;
     }
+
     .banner {
       background-image: url("./Images/hero12.png");
       background-repeat: no-repeat;
@@ -1240,8 +1264,16 @@ nav .header a{
         font-size: 10px;
         width: 50px;
     }
+
+    /* features */
+    .features{
+        margin: 7vh 7vw 5vh;
+    }
     
     /* Products */
+    .featured{
+        margin-top: 6vh;
+    }
     .featured .products {
        margin: 6vh 9vw ;
        height: 600px;
@@ -1281,5 +1313,22 @@ nav .header a{
     }
     #classicb1 a,#classicb2 a{
         padding: 0;
+    }
+
+    /* blog page */
+    #blog .blogs .first{
+        display:flow-root;
+        margin: 8vh 9vw;
+    }
+    #blog .blogs .first .content{
+        font-size: 10px;
+    }
+    #blog .blogs .first img{
+        width: 73vw;
+        margin: 0 0 2vh 0;
+    }
+    #blog .blogs .first h2 {
+        top: -7%;
+        z-index: -1;
     }
 }

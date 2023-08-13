@@ -1,11 +1,20 @@
 // let navBar=document.querySelector(".navbar");
 let val;
-let nav=document.querySelector("nav");
+let nav=document.getElementsByClassName("header");
 window.onscroll = function(){
     if(document.documentElement.scrollTop>15){
-        nav.classList.add("sticky");
+        nav.add("sticky");
     }
     else{
-        nav.classList.remove("sticky");
+        nav.remove("sticky");
     }
+}
+
+function myFunction() {
+  var x = document.getElementById("Head");
+  if (x.className === "header") {
+    x.className += " responsive";
+  } else {
+    x.className = "header";
+  }
 }
