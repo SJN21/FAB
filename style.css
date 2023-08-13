@@ -1259,10 +1259,10 @@ nav .header a{
     /* ads */
     
     .ads .row2 .ad5,.ads .row2 .ad4,.ads .row2 .ad3{
-        height: 20vh;
+        height: 14vh;
     }
     .ads .row1 .ad1,.ads .row1 .ad2{
-        height: 45vh;
+        height: 35vh;
     }
     .ads .row1 .ad1 h5, .ads .row1 .ad2 h5 {
         margin: 10px 0 0;
@@ -1270,7 +1270,7 @@ nav .header a{
         letter-spacing: 0.5px;
     }
     .ads .row1 .ad1 .content, .ads .row1 .ad2 .content {
-        margin: 40px 20px;
+        margin: 40px 12px;
     }
     #classicb1,#classicb2{
         width: 70px;
