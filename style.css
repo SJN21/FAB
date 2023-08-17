@@ -65,7 +65,7 @@ body{
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgb(118, 52, 52); /* Black fallback color */
     background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -103,7 +103,7 @@ body{
     font-size: 60px;
   }
   #open{
-      visibility: hidden;
+      display: none;
   }
 /* overlying complete */
 nav{
@@ -185,7 +185,7 @@ nav .header a{
   background-size: cover;
   background-attachment: scroll;
   height: 77vh;
-  background-position: top -10% right 0;
+  background-position: top 0% right 0;
   padding: 0px 7vw;
   line-height: 50px;
   display: flex;
@@ -835,7 +835,7 @@ nav .header a{
 
 /* blog */
 #blogbanner{
-    background-image: url("./Images/Read/banner2.png");
+    background-image: url("./Images/Read/banner3.jpg");
     background-repeat: no-repeat;
     /* background-size:cover; */
     background-attachment: scroll;
@@ -1143,7 +1143,7 @@ body {
 /* about */
 
 #aboutbanner{
-    background-image: url("./Images/about\ us/banner3.jpg");
+    background-image: url("./Images/about\ us/idea.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: scroll;
@@ -1602,7 +1602,7 @@ body {
         display: none;
     }
     #open{
-        visibility: visible;
+        display:flex;
     }
     h1{
         font-size: 19px;
@@ -1643,7 +1643,7 @@ body {
       }
     
     #open{
-        visibility: visible;
+        display: flex;
     }
     /* First 5 features */
     .features {
@@ -1852,8 +1852,10 @@ body {
     }
 
     /* blog page */
+    #blogbanner{
+        height: 55vh;
+    }
     #blogbanner h2{
-        color: #FDE186;
         margin: auto;
     }
     #blog .blogs .first{
@@ -1869,6 +1871,9 @@ body {
         z-index: -1;
     }
     /* about us */
+    #aboutbanner{
+        height: 55vh;
+    }
      
   .wk-tab-1 {
     width: 8.333333%;
