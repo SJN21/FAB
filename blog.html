@@ -10,22 +10,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="blog">
-    <nav>
-        <div class="header">
+    
+    <nav class="nav">
+        <div class="header" id="Head">
             <a href="#"><img src="./Images/logo2-removebg-preview.png" alt="Logo"></a>
-            
             <div class="middle">
                 <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="shop.html" >Shop</a></li>
-                    <li><a href="#" id="activate">Blog</a></li>
+                    <li><a href="#" id="activate">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <a href="cart.html"><img src="./Images/bag2.png" alt="Cart"></a>
                 </ul>
             </div>
+            <span onclick="openNav()" id="open">open</span>
         </div>
     </nav>    
+
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="#">Blog</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html">Cart</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
 
     <div class="banner" id="blogbanner">
         <h2># readmore</h2>
