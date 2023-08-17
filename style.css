@@ -1501,6 +1501,9 @@ body {
   }
   
   @media (max-width: 1024px) {
+    #contactbanner{
+        height: 70vh;
+    }
     .contact_us_6 .responsive-container-block.container {
       justify-content: center;
     }
@@ -1853,7 +1856,7 @@ body {
 
     /* blog page */
     #blogbanner{
-        height: 55vh;
+        height: 70vh;
     }
     #blogbanner h2{
         margin: auto;
@@ -1872,7 +1875,7 @@ body {
     }
     /* about us */
     #aboutbanner{
-        height: 55vh;
+        height: 70vh;
     }
      
   .wk-tab-1 {
