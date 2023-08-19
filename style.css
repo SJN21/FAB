@@ -642,7 +642,7 @@ nav .header a{
 /* shop */
 
 #shop{
-    background-color: #f5f4f4;
+    background-color: #ffffff;
 }
 
 #shop .ratings{
@@ -1553,7 +1553,7 @@ body {
         line-height: 30px;
     }
     #shopbanner{
-        background-image: url("./Images/Shop/banner.jpg");
+        background-image: url("./Images/Shop/banner2.jpg");
         height: 70vh;
         line-height: 30px; /*so that a;; lines becomes min. 50px height and gap sets automatically*/
     }
@@ -1939,7 +1939,7 @@ body {
       line-height: 10px;
     }
     #shopbanner{
-        background-image: url("./Images/Shop/banner.jpg");
+        background-image: url("./Images/Shop/banner2.jpg");
         height: 50vh;
         padding: 0 7vw;
         line-height: 10px; /*so that a;; lines becomes min. 50px height and gap sets automatically*/
