@@ -12,9 +12,6 @@
 #shop{
     background: #E9E9E9;
 }
-#shop .ratings{
-    margin: 80px 80px 0px;
-}
 h1{
     font-size: 22px;
     line-height: 64px;
@@ -648,6 +645,9 @@ nav .header a{
     background-color: #f5f4f4;
 }
 
+#shop .ratings{
+    margin: 80px 80px 0px;
+}
 #shopbanner{
     background-image: url("./Images/Shop/banner.jpg");
     background-repeat: no-repeat;
@@ -1552,6 +1552,11 @@ body {
         height: 70vh;
         line-height: 30px;
     }
+    #shopbanner{
+        background-image: url("./Images/Shop/banner.jpg");
+        height: 70vh;
+        line-height: 30px; /*so that a;; lines becomes min. 50px height and gap sets automatically*/
+    }
     nav .header .middle2{
         display: none;
     }
@@ -1933,15 +1938,39 @@ body {
       padding: 0px 7vw;
       line-height: 10px;
     }
+    #shopbanner{
+        background-image: url("./Images/Shop/banner.jpg");
+        height: 50vh;
+        padding: 0 7vw;
+        line-height: 10px; /*so that a;; lines becomes min. 50px height and gap sets automatically*/
+    }
     h2{
         font-size: 23px;
         /* line-height: 40px; */
         color: #2e1302;
     }
+    
+    #shop h4{
+        line-height: 14px;
+        font-size: 13px;
+        margin: 0 0 2vh;
+    }    
+    #shop h1{
+        font-size: 16px;
+        color: #222;
+    }
+    #shop p{
+        font-size: 10px;
+        line-height: 13px;
+        /* margin: 10px 0 14px 0; */
+    }
+    #shop h2{
+        font-size: 21px;
+        /* line-height: 40px; */
+    }
     #about h2{
         font-size: 21px;
         /* line-height: 40px; */
-        color: #2e1302;
     }
     h4{
         line-height: 14px;
