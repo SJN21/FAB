@@ -12,7 +12,9 @@
 #shop{
     background: #E9E9E9;
 }
-
+#shop .ratings{
+    margin: 80px 80px 0px;
+}
 h1{
     font-size: 22px;
     line-height: 64px;
@@ -1890,9 +1892,6 @@ body {
     #shop .prodetails .left .single_image img{
         height: auto;
         width: 82vw;
-        /* margin-bottom: 20px; */
-        box-shadow:  0 5px 15px rgba(54, 52, 52, 0.26);
-        border-radius: 10px;
     }
     #shop .prodetails .left .grp {
         display: flex;
@@ -1905,11 +1904,9 @@ body {
     #shop .prodetails .left .grp img{
         width: 24vw;
         height: auto;
-        box-shadow:  0 5px 15px rgba(54, 52, 52, 0.489);
     }
     #shop .prodetails .right{
         margin: 3vh 0;
-        line-height: 19px;
     }
 }
 @media (max-width: 420px) {
@@ -2124,4 +2121,27 @@ body {
     margin-bottom: 0px;
     margin-left: 4vw;
   }
+
+  
+    /* shop */
+    #shop .ratings{
+        margin: 3vh 9vw;
+    }
+    #shop .prodetails{
+        display:block;
+        margin: 3vh 9vw;
+        /* align-items: center; */
+    }
+    #shop .prodetails .left .single_image img{
+        height: auto;
+        width: 82vw;
+    }
+    #shop .prodetails .left .grp {
+        display: flex;
+        justify-content: space-between;
+    }
+    #shop .prodetails .left .grp .smallimg{    
+        flex-basis: 24%;
+        cursor: pointer;
+    }
 }
