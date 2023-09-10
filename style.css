@@ -1238,6 +1238,7 @@ body {
   .contact_us_6 .text-blk.contactus-head {
     font-size: 24px;
     line-height: 52px;
+    color: #030303;
     font-weight: 800;
   }
   
@@ -1318,35 +1319,8 @@ body {
     border: none;
     width: 98%;
     height: 34px;
-    background-color: #2e1302;
-    color: #F8F5EE;
-    /* width: 98%;
-    background-color: #03a9f4;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-top-style: outset;
-    border-right-style: outset;
-    border-bottom-style: outset;
-    border-left-style: outset;
-    border-top-color: #767676;
-    border-right-color: #767676;
-    border-bottom-color: #767676;
-    border-left-color: #767676;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px; */
+    background-color: #000000;
+    color: #ffffff;
   }
   
   .contact_us_6 .form-box {
@@ -1362,7 +1336,7 @@ body {
   }
   
   .contact_us_6 ::placeholder {
-    color: #dadada;
+    color: #ffffff;
   }
   
   .contact_us_6 .mob-text {
@@ -1410,11 +1384,12 @@ body {
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
-    color: #2e1302;
+    color: #000000;
   }
   
   .contact_us_6 .text-blk.map-contactus-subhead {
     max-width: 300px;
+    color: #000000;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
